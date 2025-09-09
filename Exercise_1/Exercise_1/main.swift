@@ -9,10 +9,10 @@
 //
 //  Exercise 1: Create an algorithm that asks the user for two numbers and displays their sum.
 
-print("Ingresa el primer número: ", terminator: "")
+print("Enter the first number: ", terminator: "")
 let num1 = Int(readLine() ?? "") ?? 0
 
-print("Ingresa el segundo número: ", terminator: "")
+print("Enter the second number: ", terminator: "")
 let num2 = Int(readLine() ?? "") ?? 0
 
 let result = num1 + num2
